@@ -38,14 +38,6 @@ button.onclick = function () {
     const the_mark=document.getElementById("the_mark");
     
     the_mark.textContent=final.toFixed(2);
-    if(final<10){
-        the_markk.textContent="eqra eqra ...."
-        the_mark.style.color="red";
-    }
-    else{
-        the_markk.textContent="piiiiii chikour"
-        the_mark.style.color="green";
-    }   
     
     
 
